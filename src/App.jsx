@@ -1,5 +1,14 @@
+import Products from "./components/Products/Products";
+import Search from "./components/SearchBox/Search";
+
 function App() {
-  return <h1>The Restaurant App</h1>;
+  return (
+    <>
+      <Search />
+      <Products />
+
+    </>
+  )
 }
 
 export default App;
