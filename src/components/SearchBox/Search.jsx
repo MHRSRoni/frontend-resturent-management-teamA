@@ -7,14 +7,14 @@ import './Search.css'
 
 const Search = () => {
     return (
-        <div className='container'>
+        <div className='container '>
             <h1 className='text-center mb-3'>Our Menu</h1>
             <Navbar bg="light" data-bs-theme="light">
-                <Container>
+                <Container className="justify-content-center">
 
                     <Nav className="">
 
-                        <div className=" d-flex justify-content-center align-items-center flex-wrap">
+                        <div className="d-flex justify-content-center align-items-center gap-5">
 
                             <div>
 
