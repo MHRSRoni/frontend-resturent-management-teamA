@@ -1,0 +1,13 @@
+.footer{
+    background-color: #f5eee1;
+}
+
+.custom-link{
+    color: #000000; 
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.custom-link:hover{
+    color:blue;
+}
