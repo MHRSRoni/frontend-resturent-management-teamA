@@ -1,0 +1,62 @@
+[
+    {
+        "_id": "623853b2614ad5aba311fdd1",
+        "index": 0,
+        "title": "Food Name",
+        "calories": "300 cal",
+        "price": 14,
+        "picture": "https://i0.wp.com/swadishta.de/wp-content/uploads/2021/01/Thali.jpg?fit=1200%2C800&ssl=1",
+        "name": "Just Chill",
+        "gender": "Just Chill"
+    },
+    {
+        "_id": "623853b2578e9e6ad1ae0dd5",
+        "index": 1,
+        "title": "Food Name",
+        "calories": "300 cal",
+        "picture": "https://i0.wp.com/swadishta.de/wp-content/uploads/2021/01/Thali.jpg?fit=1200%2C800&ssl=1",
+        "name": "Keep Coding",
+        "price": 27,
+        "gender": "Keep Coding"
+    },
+    {
+        "_id": "623853b21fb149d2ee7b76c7",
+        "index": 2,
+        "title": "Food Name",
+        "calories": "300 cal",
+        "picture": "https://i0.wp.com/swadishta.de/wp-content/uploads/2021/01/Thali.jpg?fit=1200%2C800&ssl=1",
+        "name": "Black",
+        "price": 24,
+        "gender": ""
+    },
+    {
+        "_id": "623853b2e91c8de578c9245e",
+        "index": 3,
+        "title": "Food Name",
+        "calories": "300 cal",
+        "picture": "https://i0.wp.com/swadishta.de/wp-content/uploads/2021/01/Thali.jpg?fit=1200%2C800&ssl=1",
+        "name": "Mix Yellow",
+        "price": 14,
+        "gender": "Mix Yellow"
+    },
+    {
+        "_id": "623853b2239582e48409ccc6",
+        "index": 4,
+        "title": "Food Name",
+        "calories": "300 cal",
+        "price": 34,
+        "picture": "https://i0.wp.com/swadishta.de/wp-content/uploads/2021/01/Thali.jpg?fit=1200%2C800&ssl=1",
+        "name": "Bachelor",
+        "gender": "male"
+    },
+    {
+        "_id": "623853b2cdda0d5bc294f791",
+        "index": 5,
+        "title": "Food Name",
+        "calories": "300 cal",
+        "picture": "https://i0.wp.com/swadishta.de/wp-content/uploads/2021/01/Thali.jpg?fit=1200%2C800&ssl=1",
+        "name": "Right Price",
+        "price": 141,
+        "gender": "male"
+    }
+]
