@@ -1,23 +1,21 @@
-import React from 'react';
-import Chef from '../components/chefs/Chef';
+import React from "react";
+import Chef from "../components/chefs/Chef";
 
 const HomePage = () => {
-    return (
-        <>
-            
-            {/* Hero-Section */}
-    
-            {/* Deal- Section */}
+  return (
+    <>
+      {/* Hero-Section */}
 
-            {/* About- Section */}
+      {/* Deal- Section */}
 
-            {/* Chefs- Section */}
-            <Chef />
+      {/* About- Section */}
 
-            {/* Footer- Section */}
-            
-        </>
-    );
+      {/* Chefs- Section */}
+      <Chef />
+
+      {/* Footer- Section */}
+    </>
+  );
 };
 
 export default HomePage;

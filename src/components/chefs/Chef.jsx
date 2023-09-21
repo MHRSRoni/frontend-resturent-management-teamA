@@ -1,12 +1,5 @@
-
-
 const Chef = () => {
-    return (
-        <>
-           
-        </>
-            
-    );
+  return <></>;
 };
 
 export default Chef;
