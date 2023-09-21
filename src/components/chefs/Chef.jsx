@@ -1,5 +1,7 @@
 const Chef = () => {
   return <></>;
+const Chef = () => {
+  return <></>;
 
 import chef1 from '../../assets/images/card-1.jpg'
 import chef2 from '../../assets/images/card-2.jpg'

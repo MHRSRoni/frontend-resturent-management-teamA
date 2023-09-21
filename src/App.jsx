@@ -1,4 +1,3 @@
-
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
@@ -8,8 +7,6 @@ import Footer from "./components/footer/Footer";
 
 import Products from "./components/Products/Products";
 import Search from "./components/SearchBox/Search";
-
-
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
@@ -57,7 +54,6 @@ function App() {
     </div>
   )
 }
-
 
 const App = () => {
   return (

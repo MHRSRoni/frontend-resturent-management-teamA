@@ -42,30 +42,55 @@ const Footer = () => {
 
                                 <li className='navbar-item'><a className='custom-link'><span className='me-2'><AiFillInstagram /></span> Instagram</a></li>
 
-                                <li className='navbar-item'><a className='custom-link'><span className='me-2'><BsTwitter /></span> Twitter</a></li>
+                <li className="navbar-item">
+                  <a className="custom-link">
+                    <span className="me-2">
+                      <AiFillInstagram />
+                    </span>{" "}
+                    Instagram
+                  </a>
+                </li>
 
-                            </ul>
-                        </div>
-                        <div className="col-3">
-                            <h4>Contact Us</h4>
-                            <ul className='navbar-nav gap-2'>
-                                <li className='navbar-item '><a className='custom-link' href='#'>abc@xyz.com</a></li>
-                                <li className='navbar-item'><a className='custom-link' href='#'>+8801317470677</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-3">
-                            <h4>Open Hours</h4>
-                            <p>The store's opening <br /> hours are 9 a.m. to 6 p.m</p>
-                            
-                        </div>
-                    </div>
-                </div>
+                <li className="navbar-item">
+                  <a className="custom-link">
+                    <span className="me-2">
+                      <BsTwitter />
+                    </span>{" "}
+                    Twitter
+                  </a>
+                </li>
+              </ul>
             </div>
-        </>
-    );
+            <div className="col-3">
+              <h4>Contact Us</h4>
+              <ul className="navbar-nav gap-2">
+                <li className="navbar-item ">
+                  <a className="custom-link" href="#">
+                    abc@xyz.com
+                  </a>
+                </li>
+                <li className="navbar-item">
+                  <a className="custom-link" href="#">
+                    +8801317470677
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-3">
+              <h4>Open Hours</h4>
+              <p>
+                The store's opening <br /> hours are 9 a.m. to 6 p.m
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default Footer;
+
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { BsFacebook, BsTwitter } from "react-icons/bs";
@@ -138,3 +163,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

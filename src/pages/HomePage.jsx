@@ -7,6 +7,11 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
+import "./HomePage.css";
+
+// import required modules
+import { Pagination, Navigation } from "swiper/modules";
+
 import sliderImage1 from "../assets/images/slider-1.jpg";
 import sliderImage2 from "../assets/images/slider-2.jpg";
 import sliderImage3 from "../assets/images/slider-3.jpg";
