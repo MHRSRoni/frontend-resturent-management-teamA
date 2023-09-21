@@ -11,6 +11,10 @@ import sliderImage1 from "../assets/images/slider-1.jpg";
 import sliderImage2 from "../assets/images/slider-2.jpg";
 import sliderImage3 from "../assets/images/slider-3.jpg";
 import aboutUs from "../assets/images/about-img.jpg";
+import dealImg1 from "../assets/images/deal-img-1.jpg";
+import dealImg2 from "../assets/images/deal-img-2.jpg";
+import dealImg3 from "../assets/images/deal-img-3.jpg";
+import dealImg4 from "../assets/images/deal-img-4.jpg";
 
 import "./HomePage.css";
 
@@ -58,6 +62,29 @@ const HomePage = () => {
         </div>
       </div>
       {/* Deal- Section */}
+      <div className="deal-section">
+        <div className="container mx-auto py-5">
+          <div className="gallery-header d-flex justify-content-between align-items-center">
+            <h4>Deals</h4>
+            <button className="btn = btn-primary">View all deals</button>
+          </div>
+
+          <div className="photo-grid mt-3">
+            <div className="photo">
+              <img src={dealImg1} />
+            </div>
+            <div className="photo">
+              <img src={dealImg2} />
+            </div>
+            <div className="photo">
+              <img src={dealImg3} />
+            </div>
+            <div className="photo">
+              <img src={dealImg4} />
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* About- Section */}
       <div className="about-section">
