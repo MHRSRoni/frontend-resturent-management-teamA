@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-12 d-flex justify-content-between">
                         <div className="col-3 d-grid align-items-center">
-                        <NavLink className="logo mx-5" >Kachchi <span className='logo-color'>Palace</span></NavLink>
+                        <NavLink className="logo mx-5" to ="#">Kachchi <span className='logo-color'>Palace</span></NavLink>
                         </div>
                         <div className="col-3">
                             <h4>Follow Us</h4>
