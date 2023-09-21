@@ -7,8 +7,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import "./HomePage.css";
-
 // import required modules
 import { Pagination, Navigation } from "swiper/modules";
 
@@ -23,14 +21,12 @@ import dealImg4 from "../assets/images/deal-img-4.jpg";
 
 import "./HomePage.css";
 
-// import required modules
-import { Pagination, Navigation } from "swiper/modules";
 
 const HomePage = () => {
   return (
     <>
       {/* Hero-Section */}
-      <div className="hero-section">
+<div className="hero-section">
         <div className="container text-center">
           <div className="row">
             <div className="heading">
@@ -66,6 +62,7 @@ const HomePage = () => {
           </Swiper>
         </div>
       </div>
+      
       {/* Deal- Section */}
       <div className="deal-section">
         <div className="container mx-auto py-5">
