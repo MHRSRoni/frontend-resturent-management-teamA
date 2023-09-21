@@ -1,5 +1,7 @@
 import React from "react";
 import Chef from "../components/chefs/Chef";
+import AppNavbar from '../components/navbar/AppNavbar';
+import Footer from '../components/footer/Footer';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -25,6 +27,7 @@ import "./HomePage.css";
 const HomePage = () => {
   return (
     <>
+      <AppNavbar />
       {/* Hero-Section */}
 <div className="hero-section">
         <div className="container text-center">
@@ -108,6 +111,7 @@ const HomePage = () => {
       <Chef />
 
       {/* Footer- Section */}
+      <Footer />
     </>
   );
 };
