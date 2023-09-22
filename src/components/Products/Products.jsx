@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import Product from "../Product/Product";
 import Search from '../SearchBox/Search';
+import AppNavbar from "../navbar/AppNavbar";
+import Footer from "../footer/Footer";
 
 const Products = () => {
     const [foods, setFoods] = useState([]);
@@ -10,12 +12,17 @@ const Products = () => {
             .then(data => setFoods(data.data))
     }, [])
     return (
-        <div className='container'>
-            <Search />
+        <div className="">
+            <AppNavbar />
+            <div className='container'>
+                <Search />
 
-            <div className='d-flex justify-content-between align-items-center flex-wrap'>
-                {foods.map(food => <Product key={food._id} food={food}></Product>)}
+                <div className='mb-5 d-flex justify-content-between align-items-center flex-wrap'>
+                    {foods.map(food => <Product key={food._id} food={food}></Product>)}
+                </div>
+
             </div>
+            <Footer />
         </div>
     );
 };
