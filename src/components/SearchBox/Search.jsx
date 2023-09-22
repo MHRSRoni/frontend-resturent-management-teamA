@@ -6,11 +6,16 @@ import Navbar from "react-bootstrap/Navbar";
 const Search = () => {
   return (
     <div className="container">
-      <h1 className="text-center mb-3">Our Menu</h1>
+      <h1 className="text-center mb-3 mt-5 mb-4">Our Menu</h1>
+
+      <div className="mx-auto w-75 mb-4">
+
+        <input className="mb-3 w-75 py-3" type="search" name="" id="" /> <button className="py-3 px-5 border btn btn-success">Search </button>
+      </div>
       <Navbar bg="light" data-bs-theme="light">
-        <Container>
+        <Container className='d-flex justify-content-center align-items-center'>
           <Nav className="">
-            <div className=" d-flex justify-content-center align-items-center flex-wrap">
+            <div className="gap-5 d-flex justify-content-center align-items-center flex-wrap">
               <div>
                 <button className="text-dark btn btn-outline-warning">All</button>
               </div>
